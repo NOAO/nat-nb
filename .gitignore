@@ -1,3 +1,5 @@
+*.html
+*.nbconvert.*
 temp.fits
 venv/
 

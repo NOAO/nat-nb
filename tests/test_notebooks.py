@@ -1,6 +1,8 @@
 # To run tests:
 #   cd nat-db
 #   pytest
+#
+# Approx run time: 
 
 # Python library
 import pathlib
@@ -23,6 +25,7 @@ def pytest_assertrepr_compare(op, left, right):
 # #!     assert f1 == f2    
 
 class TestNotebooks(object):
+    # see: https://nbconvert.readthedocs.io/en/latest/api/index.html
     def check_nb_run_errors(self, nbfile):
         nb_file = pathlib.Path(__file__).parent.parent / nbfile
         print(f'nb_file={nb_file}')

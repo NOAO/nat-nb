@@ -3,6 +3,9 @@
 #   pytest
 #
 # Approx run time: 
+#
+# To extract notebook into pure python:
+#   jupyter nbconvert --to python advanced-search.ipynb 
 
 # Python library
 import pathlib

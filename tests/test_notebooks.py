@@ -2,7 +2,7 @@
 #   cd nat-db
 #   pytest
 #
-# Approx run time: 
+# Approx run time: 124 seconds (4 tests)
 #
 # To extract notebook into pure python:
 #   jupyter nbconvert --to python advanced-search.ipynb 

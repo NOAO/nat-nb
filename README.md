@@ -13,6 +13,6 @@ flow is (mostly) beyond the scope of these notebooks.
 
 ## Science example notebooks
 
-- [Making an exposure map for DES] (exposure-map.ipynb)
+- [Making an exposure map for DES](exposure-map.ipynb)
 
 This notebook borrows from the API How-To notebooks to show how they might be used for a specific science purpose.  More such notebboks will be added in the future.

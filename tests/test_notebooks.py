@@ -12,6 +12,7 @@ import pathlib
 # External packages
 import nbformat
 from nbconvert.preprocessors import ExecutePreprocessor
+from nbconvert.preprocessors import ExtractOutputPreprocessor
 import pytest
 # Local packages
 
@@ -55,6 +56,11 @@ class TestNotebooks(object):
         self.check_nb_run_errors('advanced-search.ipynb')
         #!with open('executed_notebook.ipynb', mode='w', encoding='utf-8') as f:
         #!    nbformat.write(nb, f)
+        #!try:
+        #!    with open(nb_file) as f:
+        #!        nb = nbformat.read(f, as_version=4)
+        #!    eop = ExtractOutputPreprocessor(timeout=600, kernel_name='python3')
+        #!    eop.preprocess(nb, {})
 
     def test_auth_nb(self):
         self.check_nb_run_errors('api-authentication.ipynb')

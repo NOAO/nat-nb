@@ -5,3 +5,4 @@ jupyter==1.0.0
 requests==2.22.0
 astropy==3.2.1
 pytest==5.3.5
+healpy==1.14.0

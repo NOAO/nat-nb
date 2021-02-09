@@ -2,6 +2,7 @@
 #   cd nat-db
 #   activate
 #   pytest
+#   python -m pytest --durations=9
 #
 # Approx run time: 124 seconds (4 tests)
 #
